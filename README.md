@@ -197,6 +197,8 @@ possible. You can set following highlights manually.
 - `WindowPickerStatusLineNC` (currently unfocused window statusline highlights)
 - `WindowPickerWinBar` (currently focused window winbar highlights)
 - `WindowPickerWinBarNC` (currently unfocused window winbar highlights)
+- `WindowPickerNormalFloat`
+- `WindowPickerFloatBorder`
 
 ## Breaking changes in v2.0.0
 

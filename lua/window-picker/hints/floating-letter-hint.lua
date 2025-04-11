@@ -65,6 +65,8 @@ function M:_show_letter_in_window(window, char)
 		border = border,
 	})
 
+	vim.wo[window_id].winhighlight =
+		'NormalFloat:WindowPickerNormalFloat,FloatBorder:WindowPickerFloatBorder'
 	vim.api.nvim_buf_set_lines(buffer_id, 0, -1, true, { char })
 
 	return window_id
